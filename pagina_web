@@ -1,0 +1,1100 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Ghibli - Formulario</title>
+
+    <link type="text/css" href="estilo.css" rel="stylesheet">
+</head>
+
+<body>
+
+   
+
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="galeria.html">Películas</a></li>
+        <li><a href="formulario.html">Formulario</a></li>
+    </ul>
+
+
+  
+
+    <h1> Formulario de Studio Ghibli</h1>
+
+
+   
+
+    <div class="formulario">
+
+        <form>
+
+            <label for="nombre">Nombre:</label>
+
+            <input type="text"
+                   id="nombre"
+                   name="nombre"
+                   placeholder="Escribe tu nombre">
+
+
+            <label for="email">Correo electrónico:</label>
+
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="ejemplo@correo.com">
+
+
+            <label for="pelicula">
+                ¿Cuál es tu película favorita?
+            </label>
+
+            <select id="pelicula" name="pelicula">
+
+                <option value="totoro">
+                    Mi vecino Totoro
+                </option>
+
+                <option value="chihiro">
+                    El viaje de Chihiro
+                </option>
+
+                <option value="mononoke">
+                    La princesa Mononoke
+                </option>
+
+                <option value="castillo">
+                    El castillo ambulante
+                </option>
+
+                <option value="ponyo">
+                    Ponyo
+                </option>
+
+                <option value="viento">
+                    El viento se levanta
+                </option>
+
+            </select>
+
+
+            <label for="valoracion">
+                ¿Qué opinas de las películas de Studio Ghibli?
+            </label>
+
+            <textarea id="valoracion"
+                      name="valoracion"
+                      placeholder="Escribe aquí tu opinión...">
+            </textarea>
+
+
+            <label for="recomendar">
+                ¿Recomendarías Studio Ghibli a otras personas?
+            </label>
+
+            <select id="recomendar" name="recomendar">
+
+                <option value="si">
+                    Sí
+                </option>
+
+                <option value="no">
+                    No
+                </option>
+
+                <option value="talvez">
+                    Tal vez
+                </option>
+
+            </select>
+
+
+            <button type="submit">
+                Enviar
+            </button>
+
+        </form>
+
+    </div>
+    
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnJndTcxMmU1Y21vd2hiZTNrYnlheWEybW5hZ2w1dnk3azd2MWd1ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fwqAg6ZS6ebL2/giphy.gif"
+          alt="GIF de Studio Ghibli"
+          class="imagen-formulario">
+        
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Studio Ghibli - Películas</title>
+
+    <link type="text/css"
+          href="estilo.css"
+          rel="stylesheet">
+
+</head>
+
+<body>
+
+    <ul>
+
+        <li>
+            <a href="index.html">Inicio</a>
+        </li>
+
+        <li>
+            <a href="galeria.html">Películas</a>
+        </li>
+
+        <li>
+            <a href="formulario.html">Formulario</a>
+        </li>
+
+    </ul>
+
+
+   
+
+    <h1> Películas de Studio Ghibli</h1>
+
+    <p class="texto-galeria">
+        Haz clic en una película para conocer más información
+        y ver más imágenes.
+    </p>
+
+
+    <div class="galeria">
+
+
+        <details class="pelicula">
+
+            <summary>
+
+                <img src="https://i.pinimg.com/736x/d8/21/f8/d821f8b7201be39dee5a14af5d56b714.jpg"
+                     alt="Mi vecino Totoro">
+
+                <h2>Mi vecino Totoro</h2>
+
+            </summary>
+
+
+            <div class="informacion">
+
+                <p>
+                    <strong> Año:</strong>
+                    1988
+                </p>
+
+                <p>
+                    <strong>Director:</strong>
+                    Hayao Miyazaki
+                </p>
+
+                <p>
+                    <strong> Duración:</strong>
+                    86 minutos
+                </p>
+
+                <p>
+                    <strong>Resumen:</strong>
+                    Satsuki y Mei se mudan con su padre al campo
+                    mientras su madre se recupera en un hospital.
+                    Allí descubren un mundo mágico habitado por
+                    criaturas fantásticas, entre ellas el enorme
+                    y simpático Totoro.
+                </p>
+
+
+                <h3> Más imágenes</h3>
+
+                <div class="fotos-pelicula">
+
+                    <img src="https://i.pinimg.com/originals/d7/cd/2c/d7cd2c059789bf2d837cee2943cb9184.gif"
+                         alt="Mi vecino Totoro">
+
+                    <img src="https://i.pinimg.com/1200x/72/cf/33/72cf3392b130c89885ac56451a9e7a3b.jpg"
+                         alt="Mi vecino Totoro">
+
+                    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjJocDJibzh1amhybml6OXE2MXNod2RoN2k1bmxna2lwcG01NDdjdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bL6i8KRLAcSsw/giphy.gif"
+                         alt="Mi vecino Totoro">
+
+                    <img src="https://i.pinimg.com/1200x/63/69/e1/6369e15c758629760e438f28f65c2228.jpg"
+                         alt="Mi vecino Totoro">
+
+                    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTU1cnh6ejE0cXl5ZTd5ZDEwOW1wczFhb2hvMnZhZ2RxZGd1b29taCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qhuFHjIDMYrfO/giphy.gif"
+                         alt="Mi vecino Totoro">
+                </div>
+
+            </div>
+
+        </details>
+
+
+        <details class="pelicula">
+
+            <summary>
+
+                <img src="https://m.media-amazon.com/images/M/MV5BM2E2YzcwMTQtNWRlMC00ZGZlLWJhZTEtMDU4ZGIzMWI0NzJmXkEyXkFqcGc@._V1_.jpg"
+                     alt="El viaje de Chihiro">
+
+                <h2>El viaje de Chihiro</h2>
+
+            </summary>
+
+
+            <div class="informacion">
+
+                <p>
+                    <strong>Año:</strong>
+                    2001
+                </p>
+
+                <p>
+                    <strong> Director:</strong>
+                    Hayao Miyazaki
+                </p>
+
+                <p>
+                    <strong> Duración:</strong>
+                    125 minutos
+                </p>
+
+                <p>
+                    <strong> Resumen:</strong>
+                    Chihiro llega accidentalmente a un mundo
+                    mágico habitado por espíritus. Sus padres
+                    sufren una transformación y Chihiro tendrá
+                    que trabajar para conseguir regresar a casa.
+                </p>
+
+
+                <h3> Más imágenes</h3>
+
+                <div class="fotos-pelicula">
+
+                    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWc4andnYm42c2hwODZibTBzZHI1cWdldXhlMTd6MHJwbmc0NW56OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/frZXpAY6PltKVreyYc/giphy.gif"
+                         alt="El viaje de Chihiro">
+
+                    <img src="https://i.pinimg.com/736x/92/2d/74/922d740efc65ddd54d0898ec6cb4ee4e.jpg"
+                         alt="El viaje de Chihiro">
+
+                    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzMxMDJpdmZlMzRyaDRwbzNoeWw2c3Z0Njc3OGJlaXBhMDJuazNqZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Dzv7JShHYPDP2/giphy.gif"
+                         alt="El viaje de Chihiro">
+
+                    <img src="https://i.pinimg.com/1200x/af/8d/13/af8d1388d1a9d735488a6ad2bd23134f.jpg"
+                         alt="El viaje de Chihiro">
+
+                    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3oyZ3JvdDRnbGlwdHEzMWJybGxmZmMwYjgyYXBlYnoyMWI5cmVybSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ctztBuv0Fq4ILvFvZB/giphy.gif"
+                         alt="El viaje de Chihiro">
+
+                </div>
+
+            </div>
+
+        </details>
+
+
+
+        <details class="pelicula">
+
+            <summary>
+
+                <img src="https://es.web.img3.acsta.net/pictures/22/05/09/12/02/0498795.jpg"
+                     alt="La princesa Mononoke">
+
+                <h2>La princesa Mononoke</h2>
+
+            </summary>
+
+
+            <div class="informacion">
+
+                <p>
+                    <strong> Año:</strong>
+                    1997
+                </p>
+
+                <p>
+                    <strong>Director:</strong>
+                    Hayao Miyazaki
+                </p>
+
+                <p>
+                    <strong> Duración:</strong>
+                    134 minutos
+                </p>
+
+                <p>
+                    <strong>Resumen:</strong>
+                    Ashitaka emprende un viaje después de recibir
+                    una maldición. Durante su aventura conoce a San,
+                    una joven criada por una criatura de la naturaleza,
+                    y queda atrapado en un conflicto entre humanos
+                    y naturaleza.
+                </p>
+
+
+                <h3>Más imágenes</h3>
+
+                <div class="fotos-pelicula">
+
+                    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGk0NGJpaXptZHpyN2Y2b3UyempyaDRzZDRwOGJjcHdodHNmY29pYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/BsJNWf7J70RJS/giphy.gif"
+                         alt="La princesa Mononoke">
+
+                    <img src="https://i.pinimg.com/1200x/b3/ca/39/b3ca3912b88d80a894750b423f95f2a7.jpg"
+                         alt="La princesa Mononoke">
+
+                    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXI1ZHU5M2xkanp4Nmk4c3dkdWg5Y2M2ZnluYXE5NTZ3dG15d2RjeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/euwykQ2WXfoq3EWgQt/giphy.gif"
+                         alt="La princesa Mononoke">
+
+                    <img src="https://i.pinimg.com/1200x/fb/26/9c/fb269c3be3e2b334672d4b2fd20b50b1.jpg"
+                         alt="La princesa Mononoke">
+
+                    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2xqNXcxMXIwdjk5bGhwbng3dTZ4dWF4NGxmNnB6c21yY2pnZXh3YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o6Zt6czQXwQhQjHQQ/giphy.gif"
+                         alt="La princesa Mononoke">
+
+                </div>
+
+            </div>
+
+        </details>
+
+
+        <details class="pelicula">
+
+            <summary>
+
+                <img src="https://static.wikia.nocookie.net/studioghibli/images/d/d8/El_castillo_ambulante_portada_ESP.jpg/revision/latest?cb=20200706151536&path-prefix=es"
+                     alt="El castillo ambulante">
+
+                <h2>El castillo ambulante</h2>
+
+            </summary>
+
+
+            <div class="informacion">
+
+                <p>
+                    <strong>Año:</strong>
+                    2004
+                </p>
+
+                <p>
+                    <strong>Director:</strong>
+                    Hayao Miyazaki
+                </p>
+
+                <p>
+                    <strong>Duración:</strong>
+                    119 minutos
+                </p>
+
+                <p>
+                    <strong>Resumen:</strong>
+                    Sophie trabaja en una sombrerería hasta que
+                    una bruja la transforma en una anciana.
+                    Después de abandonar su hogar, acaba viviendo
+                    en el mágico castillo ambulante del mago Howl.
+                </p>
+
+
+                <h3>Más imágenes</h3>
+
+                <div class="fotos-pelicula">
+
+                    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzVpN3QydTRud2o5aDczMWUyaHJiZHN6N2xoM2FxODcwcGxqdnZ0ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wUCgLRvDdtWs8/giphy.gif"
+                         alt="El castillo ambulante">
+
+                    <img src="https://i.pinimg.com/736x/24/6b/85/246b85558c7c12497c0f852a498da80f.jpg"
+                         alt="El castillo ambulante">
+
+                    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjRkN3FocmxudWc5N3VzbTQ5Y3YyNXZoZzUxOWQ1YTUwdDNsZ290byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Wo0Yw7qwzgQak/giphy.gif"
+                         alt="El castillo ambulante">
+
+                    <img src="https://i.pinimg.com/736x/1c/b6/57/1cb657d4d54faa7868c8a5755341a776.jpg"
+                         alt="El castillo ambulante">
+
+                    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3hkMG8wNjZvZmlmMnJkNHBwMm8weXJzNHBoOHVxOWRmdDEwdnk0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NoEwwH3GKdBRu/giphy.gif"
+                         alt="El castillo ambulante">
+
+                </div>
+
+            </div>
+
+        </details>
+
+
+        <details class="pelicula">
+
+            <summary>
+
+                <img src="https://m.media-amazon.com/images/M/MV5BZjk1OGFmNTctMGQ0ZC00YTg0LWI1ZjMtZDc3YWMwYTNmNDYwXkEyXkFqcGc@._V1_.jpg"
+                     alt="Ponyo">
+
+                <h2>Ponyo</h2>
+
+            </summary>
+
+
+            <div class="informacion">
+
+                <p>
+                    <strong>Año:</strong>
+                    2008
+                </p>
+
+                <p>
+                    <strong> Director:</strong>
+                    Hayao Miyazaki
+                </p>
+
+                <p>
+                    <strong>Duración:</strong>
+                    101 minutos
+                </p>
+
+                <p>
+                    <strong>Resumen:</strong>
+                    Ponyo es una pequeña criatura marina que conoce
+                    a un niño llamado Sosuke. Los dos se hacen amigos
+                    y Ponyo desea convertirse en humana.
+                </p>
+
+
+                <h3> Más imágenes</h3>
+
+                <div class="fotos-pelicula">
+
+                    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG95ZDR6bWJ2NXl6aGk0OHJ0ZmZ0ZGZoNTNjaXBoZWQwMndtZzlmaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mPrRmTc0gC3Uk/giphy.gif"
+                         alt="Ponyo">
+
+                    <img src="https://i.pinimg.com/1200x/1f/36/ae/1f36aec3789d830cd7e948b1684e0a90.jpg"
+                         alt="Ponyo">
+
+                    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExODI0cmR6cm40Ymdlam12MnhkYzJsemczcWtnd2Nxb3JwYXJja29saSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FpEkzLswbrwZ41yXDa/giphy.gif"
+                         alt="Ponyo">
+
+                    <img src="https://i.pinimg.com/1200x/7f/58/c1/7f58c11cec6ebef148f6c3257b40dcbe.jpg"
+                         alt="Ponyo">
+
+                    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXhoOXN2YTVkc3I2czlxd21zZmk3bWRneThkMmdwczNoa3YwMnl6MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6rUFkGikou4GQ/giphy.gif"
+                         alt="Ponyo">
+
+                </div>
+
+            </div>
+
+        </details>
+
+
+        <details class="pelicula">
+
+            <summary>
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRArOWdZAc0q-f_W5uWhqm75_z2DNt_OS5hWSNRtoUr-BXEu-2kSPChlfTs&s=10"
+                     alt="El viento se levanta">
+
+                <h2>El viento se levanta</h2>
+
+            </summary>
+
+
+            <div class="informacion">
+
+                <p>
+                    <strong>Año:</strong>
+                    2013
+                </p>
+
+                <p>
+                    <strong> Director:</strong>
+                    Hayao Miyazaki
+                </p>
+
+                <p>
+                    <strong> Duración:</strong>
+                    126 minutos
+                </p>
+
+                <p>
+                    <strong>Resumen:</strong>
+                    Jiro Horikoshi sueña desde pequeño con diseñar
+                    aviones. A pesar de sus dificultades, consigue
+                    convertirse en ingeniero aeronáutico y trabaja
+                    para conseguir cumplir su sueño.
+                </p>
+
+
+                <h3> Más imágenes</h3>
+
+                <div class="fotos-pelicula">
+
+                    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW1hOGs5ODd4Y2cybWxsM2hsZ2FkanFodHRidWRsZ3ZuemcydDllciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l378z4WZw2vENMGxa/giphy.gif"
+                         alt="El viento se levanta">
+
+                    <img src="https://i.pinimg.com/1200x/6f/ce/5d/6fce5d26c2e95c26dc982649ee5d2266.jpg"
+                         alt="El viento se levanta">
+
+                    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmZ0Ymg0b3RodXFsd3R1em9mNnU3aDJzdjN1dG01aHdhdTZndDR0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oHvHEKTgRgk6MeIZv5/giphy.gif"
+                         alt="El viento se levanta">
+
+                    <img src="https://i.pinimg.com/736x/e0/96/fc/e096fc356fbe86084ec1863394c6b208.jpg"
+                         alt="El viento se levanta">
+
+                    <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3A3a3Z3bDJhcmZ3YzVzaDc4c2wwYnhobHphdm9nd2RrcHNxdGxwcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uja1LxgsrF9u1kVXqQ/giphy.gif"
+                         alt="El viento se levanta">
+
+                </div>
+
+            </div>
+
+        </details>
+
+
+    </div>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Studio Ghibli - Inicio</title>
+
+    <link type="text/css" href="estilo.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    
+
+    <ul>
+
+        <li>
+            <a href="index.html">Inicio</a>
+        </li>
+
+        <li>
+            <a href="galeria.html">Películas</a>
+        </li>
+
+        <li>
+            <a href="formulario.html">Formulario</a>
+        </li>
+
+    </ul>
+
+
+    
+
+    <div class="inicio">
+
+        <h1> Studio Ghibli </h1>
+
+        <h2>Un mundo lleno de imaginación y magia</h2>
+
+
+        <img class="imagen-inicio"
+             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsEiaoaVyNJJ_m2yTqa4w0mRChyaocSJ-OBmUNNN4m1H35g1t-y_jHir2H&s=10"
+             alt="Studio Ghibli">
+
+
+        <p>
+            Studio Ghibli es uno de los estudios de animación
+            más conocidos del mundo. Fue fundado en Japón en
+            el año <strong>1985</strong>.
+        </p>
+
+
+        <p>
+            Sus fundadores fueron los directores
+            <strong>Hayao Miyazaki</strong>,
+            <strong>Isao Takahata</strong> y el productor
+            <strong>Toshio Suzuki</strong>.
+        </p>
+
+
+        <p>
+            El estudio es conocido por crear películas con
+            historias fantásticas, personajes memorables y
+            mundos llenos de imaginación.
+        </p>
+
+
+        <h2>¿Por qué es tan conocido?</h2>
+
+
+        <p>
+            Las películas de Studio Ghibli destacan por sus
+            increíbles dibujos, sus historias y la importancia
+            que tienen temas como la naturaleza, la amistad,
+            la familia y la aventura.
+        </p>
+
+
+        <p>
+            Algunas de sus películas más conocidas son
+            <strong>Mi vecino Totoro</strong>,
+            <strong>El viaje de Chihiro</strong>,
+            <strong>La princesa Mononoke</strong>,
+            <strong>El castillo ambulante</strong>,
+            <strong>Ponyo</strong> y
+            <strong>El viento se levanta</strong>.
+        </p>
+
+
+      
+
+        <h2> El universo de Studio Ghibli</h2>
+
+
+        <div class="fotos-inicio">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9LSEUOgOiwFDIHNfvv_LGEbbk3gFh-iAmSOg2r4HCMsPzHPhnC21PHDuy&s=10"
+                 alt="Película de Studio Ghibli">
+
+            <img src="https://i.pinimg.com/736x/f8/97/d0/f897d0bb9e98a185d16daa8e3ba2cb4e.jpg"
+                 alt="Personajes de Studio Ghibli">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRppII-bhTY-H14xJeG2ZAY1OQM2ep0O8FZjaQWseSvWPI7hR9rET0PZYJ7&s=10"
+                 alt="Mundo de Studio Ghibli">
+
+        </div>
+
+
+        <h2>Una animación diferente</h2>
+
+
+        <p>
+            Studio Ghibli ha conseguido crear un estilo de
+            animación único que ha conseguido seguidores
+            en todo el mundo.
+        </p>
+
+    </div>
+
+
+</body>
+
+</html>
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f0e6;
+    color: #354957;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #536b7a;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #354957;
+}
+
+
+
+  
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    color: #3d5666;
+}
+
+h2 {
+    color: #536b7a;
+}
+
+
+.inicio {
+    text-align: center;
+    padding: 40px;
+}
+
+.inicio h1 {
+    font-size: 45px;
+    color: #3d5666;
+}
+
+.inicio h2 {
+    color: #536b7a;
+}
+
+.inicio p {
+    max-width: 750px;
+    margin: 25px auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+
+.imagen-inicio {
+    width: 70%;
+    max-width: 700px;
+    height: 400px;
+
+    object-fit: contain;
+
+    background-color: #e8e1d2;
+
+    border-radius: 15px;
+
+    margin: 20px auto;
+
+    display: block;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.fotos-inicio {
+    width: 90%;
+    max-width: 1000px;
+
+    margin: 30px auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.fotos-inicio img {
+    width: 100%;
+    height: 250px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    transition: transform 0.3s;
+}
+
+.fotos-inicio img:hover {
+    transform: scale(1.03);
+}
+
+
+
+.texto-galeria {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
+
+
+
+
+.galeria {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 40px auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+
+.pelicula {
+    background-color: white;
+
+    border-radius: 10px;
+
+    padding-bottom: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    cursor: pointer;
+}
+
+
+
+.pelicula summary {
+    list-style: none;
+}
+
+.pelicula summary::-webkit-details-marker {
+    display: none;
+}
+
+
+
+
+.pelicula summary img {
+    width: 100%;
+
+    height: 500px;
+
+    object-fit: contain;
+
+    background-color: #e8e1d2;
+
+    cursor: pointer;
+
+    transition: transform 0.3s;
+}
+
+.pelicula summary img:hover {
+    transform: scale(1.02);
+}
+
+
+
+
+.pelicula summary h2 {
+    font-size: 22px;
+    margin: 15px 5px;
+}
+
+
+
+
+.pelicula summary h2::after {
+    content: " ▼";
+
+    font-size: 14px;
+}
+
+.pelicula[open] summary h2::after {
+    content: " ▲";
+}
+
+
+
+
+.informacion {
+    padding: 10px 20px 20px 20px;
+
+    text-align: left;
+
+    background-color: #eee8dc;
+
+    border-top: 3px solid #b85c5c;
+}
+
+.informacion p {
+    line-height: 1.5;
+}
+
+
+
+
+.informacion h3 {
+    text-align: center;
+
+    color: #536b7a;
+
+    margin-top: 25px;
+}
+
+
+
+
+
+
+.fotos-pelicula img {
+    width: 100%;
+    height: 200px;
+
+    object-fit: cover;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    cursor: pointer;
+
+    transition: transform 0.3s;
+}
+
+
+
+.fotos-pelicula img:hover {
+    object-fit: contain;
+
+    background-color: #e8e1d2;
+
+    transform: scale(2.5);
+
+    position: relative;
+
+    z-index: 10;
+}
+
+
+.formulario {
+    width: 80%;
+    max-width: 600px;
+
+    margin: 40px auto;
+
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.imagen-formulario {
+    display: block;
+    width: 300px;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+
+
+label {
+    display: block;
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+
+    font-weight: bold;
+}
+
+
+
+
+input,
+select,
+textarea {
+    width: 100%;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #aaa;
+
+    border-radius: 5px;
+
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+textarea {
+    height: 120px;
+
+    resize: vertical;
+}
+
+
+
+
+button {
+    margin-top: 20px;
+
+    padding: 12px 30px;
+
+    background-color: #536b7a;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #354957;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    /* Galería principal */
+
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+
+
+    
+
+    .fotos-pelicula {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+    .fotos-inicio {
+        grid-template-columns: 1fr;
+    }
+
+
+    
+
+    .imagen-inicio {
+        width: 90%;
+    }
+
+
+    .pelicula summary img {
+        height: 450px;
+    }
+
+}
